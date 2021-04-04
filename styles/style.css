@@ -1,0 +1,132 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    line-height: 1.7;
+    font-size: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+header {
+    padding: 20px;
+    font-weight: 400;
+    background-color: #243a57;
+    color: white;
+}
+
+footer {
+    padding: 20px;
+    background-color: #243a57;
+    color: white;
+}
+
+footer a {
+    color: white;
+}
+
+h1 {
+    color: white;
+    text-transform: uppercase;
+}
+
+nav a {
+    margin-right: 10px;
+}
+
+nav, main {
+    margin: 20px 25px;
+}
+
+a:focus {
+    text-decoration: none;
+    outline: 2px solid #243a57;
+    background-color: #243a57;
+    color: #fff;
+}
+
+img {
+    width: 100%;
+    max-width: 500px;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #243a57;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 5px;
+    padding: 0;
+}
+
+.all-projects li {
+    padding-bottom: 20px; 
+}
+
+.project-section {
+    padding-top: 15px;
+}
+
+.contact-me {
+    padding: 30px 20px;
+    padding-top: 0;
+}
+
+.social-media a {
+    margin: 20px 10px;
+}
+
+#contact-form {
+    border-radius: 10px;
+    padding: 30px;
+    text-align: left;
+}
+
+#contact-form label,
+#contact-form input,
+#contact-form textarea {
+    display: block;
+}
+
+#contact-form label {
+    margin-bottom: 10px;
+}
+
+
+#contact-form input,
+#contact-form textarea,
+#contact-form button {
+    width: 100%;
+    max-width: 300px;
+    padding: 3px 5px;
+    font-size: 18px;
+}
+
+#contact-form button {
+    margin-top: 10px;
+    background-color: #243a57;
+    color: white;
+    max-width: 310px;
+    border-color: #243a57;
+}
+
+.error {
+    color: red;
+}
+
+.success {
+    color: green;
+}
+
+@media screen and (max-width: 320px) {
+    .navbar a {
+      display: block;
+    }
+  }
